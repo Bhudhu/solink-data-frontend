@@ -5,7 +5,9 @@ import Header from "../components/Header";
 import axios from "axios";
 import Chart from "../components/Chart";
 
-const API_URL = "https://solink-weather-api-1749b9bb7b64.herokuapp.com/fetch"; // Ensure your backend is running
+const API_URL =  "https://solink-weather-api-1749b9bb7b64.herokuapp.com/fetch";
+
+
 
 const Dashboard: React.FC = () => {
   // ✅ Define state to store weather data
