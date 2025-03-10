@@ -58,7 +58,7 @@ const Dashboard: React.FC = () => {
             <WeatherCard label="Humidity" value={`${data[0].relative_humidity}%`} />
             <WeatherCard label="Wind Speed" value={`${data[0].wind_speed_10m} m/s`} />
             <WeatherCard label="Surface Pressure" value={`${data[0].surface_pressure} hPa`} />
-            <WeatherCard label="PV Power Rooftop" value={`${data[0].pv_power_rooftop} W`} />
+            <WeatherCard label="PV Power Rooftop" value={`${data[0].pv_power_rooftop} kW`} />
           </CardContainer>
 
           <Chart data={data} />
